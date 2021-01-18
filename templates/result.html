@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+       .pghead{
+        background-color: #d4d4d5;
+        height:150px;
+        }
+        .pic{
+		position: relative;
+		background-color: white;
+		margin: 0 auto;
+		width: 800px;
+		height: 600px;
+        float:left;
+        text-indent: 70px
+	    }
+        .re{
+		position: relative;
+		background-color: white;
+		margin: 0 auto;
+		width: 200px;
+		height: 600px;
+        float:left;
+	    }
+    </style>
+</head>
+
+<body style="margin:0 auto">
+    <div class="pghead">
+        <div style="float:left;text-indent: 350px;padding-top: 30px;font-size: 26pt">软件课设项目</div>
+        <div style="float:left;text-indent: 100px;padding-top: 100px;font-size: 16pt">——基于深度学习的CIFAR-10图片识别</div>
+        <div style="clear:both"></div>
+    </div>
+
+    <div class="pic">
+        <div style="margin: 0 auto;text-indent: 50px">
+            <h1>识别结果</h1><br>
+            <a style="font-size:150px;margin-top=30px ">
+                <div style="text-indent: 70px">{{ result }}</div>
+            </a>
+        </div>
+    </div>
+
+    <div class="re">
+        <a href="/result" style="font-size:50px;text-indent: 700px;padding-top: 130px;margin:0 auto">继续识别</a>
+    </div>
+
+</body>
+<html>
